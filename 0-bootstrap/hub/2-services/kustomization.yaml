@@ -26,6 +26,10 @@ resources:
  
  - argocd/operators/external-secrets.yaml
  - argocd/instances/external-secrets/external-secrets.yaml
+
+ # CP4I - Predeploy
+ - argocd/instances/cloudpak/cp4i/predeploy/secrets.yaml
+ 
  # Required for IBM MQ
  #- argocd/instances/openldap.yaml
  # Required for IBM ACE, IBM MQ
