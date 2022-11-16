@@ -10,6 +10,14 @@ resources:
  # IBM Catalogs
  #- argocd/operators/ibm-catalogs.yaml
 
+ # CloudPaks
+
+ # CP4I
+
+ # CP4I - Operators 
+ - argocd/operators/cloudpak/cp4i/catalogsource.yaml
+ - argocd/operators/cloudpak/cp4i/subscription.yaml
+
  # Required for IBM MQ
  #- argocd/instances/openldap.yaml
  # Required for IBM ACE, IBM MQ
@@ -20,7 +28,7 @@ resources:
  #- argocd/instances/cert-manager.yaml
 
  # Secrets Managment
- - argocd/instances/sealed-secrets.yaml
+#  - argocd/instances/sealed-secrets.yaml
  #- argocd/operators/external-secrets.yaml
  #- argocd/instances/external-secrets.yaml
 
@@ -38,10 +46,10 @@ resources:
  #- argocd/instances/openshift-service-mesh-instance.yaml
 
  # MultiCloud Management / Red Hat Advanced Cluster Management
- - argocd/operators/openshift-acm.yaml
- - argocd/instances/openshift-acm-instance.yaml
- - argocd/instances/openshift-acm-observability-instance.yaml
- - argocd/instances/openshift-gitopscluster-instance.yaml
+#  - argocd/operators/openshift-acm.yaml
+#  - argocd/instances/openshift-acm-instance.yaml
+#  - argocd/instances/openshift-acm-observability-instance.yaml
+#  - argocd/instances/openshift-gitopscluster-instance.yaml
  # Red Hat Advanced Cluster Management - Central Infrastructure Management
  #- argocd/instances/openshift-acm-cim.yaml
  # Red Hat Advanced Cluster Management - Discovery Service
@@ -81,10 +89,10 @@ resources:
  #- argocd/instances/rhsso-integration-argocd-instance.yaml
 
  # Red Hat Quay Registry
- - argocd/operators/quay-registry.yaml
- - argocd/instances/quay-registry-instance.yaml
- - argocd/operators/quay-container-security.yaml
- - argocd/operators/quay-bridge-operator.yaml
+#  - argocd/operators/quay-registry.yaml
+#  - argocd/instances/quay-registry-instance.yaml
+#  - argocd/operators/quay-container-security.yaml
+#  - argocd/operators/quay-bridge-operator.yaml
 
 patches:
 - target:
