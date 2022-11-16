@@ -13,7 +13,7 @@ resources:
 
  # CP4I
 
- - argocd/namespaces/cloudpak/cp4i
+ - argocd/namespaces/cloudpak/cp4i/namespace-cp4i.yaml
 
  # Sealed Secrets
 
