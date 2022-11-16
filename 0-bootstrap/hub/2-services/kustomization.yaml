@@ -29,6 +29,9 @@ resources:
 
  # CP4I - Predeploy
  - argocd/instances/cloudpak/cp4i/predeploy/secrets.yaml
+
+ # CP4I - Deploy
+ - argocd/instances/cloudpak/cp4i/deploy/cp4i.yaml
  
  # Required for IBM MQ
  #- argocd/instances/openldap.yaml
