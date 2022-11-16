@@ -18,6 +18,10 @@ resources:
  - argocd/operators/cloudpak/cp4i/catalogsource.yaml
  - argocd/operators/cloudpak/cp4i/subscription.yaml
 
+ # CP4X - Entitlement Key
+ 
+ - argocd/instances/external-secrets/api-key-sealedsecret.yaml
+
  # Required for IBM MQ
  #- argocd/instances/openldap.yaml
  # Required for IBM ACE, IBM MQ
