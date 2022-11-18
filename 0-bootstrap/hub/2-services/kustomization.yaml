@@ -32,6 +32,9 @@ resources:
 
  # CP4I - Deploy
  - argocd/instances/cloudpak/cp4i/deploy/cp4i.yaml
+
+ # CP4I - Security Verify
+ - argocd/instances/cloudpak/cp4i/postdeploy/verify-secrets.yaml
  
  # Required for IBM MQ
  #- argocd/instances/openldap.yaml
