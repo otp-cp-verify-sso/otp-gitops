@@ -8,6 +8,8 @@ metadata:
 spec:
   sourceRepos: [] # Populated by kustomize patches in 2-services/kustomization.yaml
   destinations:
+  - namespace: verify
+    server: https://kubernetes.default.svc
   - namespace: cp4i
     server: https://kubernetes.default.svc
   - namespace: kube-system
