@@ -8,8 +8,13 @@ resources:
  #- argocd/namespaces/namespace-cert-manager.yaml
 
  # Security Verify
+
+ # Namespace
  - argocd/namespaces/verify/namespace-verify.yaml
- 
+
+ # RBAC
+ - argocd/rbac/verify/rbac-verify.yaml
+
  # Cloud Paks
 
  # MCM
