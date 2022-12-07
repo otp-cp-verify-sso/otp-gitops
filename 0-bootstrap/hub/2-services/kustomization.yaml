@@ -29,8 +29,8 @@ resources:
 
  # CP4I - Secret Store
  
- - argocd/operators/external-secrets.yaml
- - argocd/instances/external-secrets/external-secrets.yaml
+#  - argocd/operators/external-secrets.yaml
+#  - argocd/instances/external-secrets/external-secrets.yaml
 
  # CP4I - Predeploy
  - argocd/instances/cloudpak/cp4i/predeploy/secrets.yaml
