@@ -14,7 +14,7 @@ resources:
 
  # CP4X
 
- # - argocd/instances/cloudpak/cp4x/postdeploy/verify/secrets/verify-secrets.yaml
+ - argocd/instances/cloudpak/cp4x/postdeploy/verify/secrets/verify-secrets.yaml
  # - argocd/instances/cloudpak/cp4x/postdeploy/verify/sso-integration/sso-integration.yaml
 
  # CP4I
