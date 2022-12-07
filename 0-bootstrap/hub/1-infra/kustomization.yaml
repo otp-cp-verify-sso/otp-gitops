@@ -28,7 +28,7 @@ resources:
  - argocd/secrets/sealed-secrets.yaml
  
  # External Secrets
- # - argocd/rbac/rbac-external-secrets.yaml
+ - argocd/rbac/rbac-external-secrets.yaml
  # - argocd/namespaces/namespace-external-secrets.yaml
  
  - argocd/namespaces/namespace-sealed-secrets.yaml
